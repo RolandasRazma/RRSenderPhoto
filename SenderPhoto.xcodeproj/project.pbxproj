@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C4AA0B14978C92004E791E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4AA0A14978C92004E791E /* AddressBook.framework */; };
+		F0C4AA0D14978C92004E791E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4AA0C14978C92004E791E /* Cocoa.framework */; };
+		F0C4AA1714978C92004E791E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C4AA1514978C92004E791E /* InfoPlist.strings */; };
+		F0C4AA1B14978C92004E791E /* SenderPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4AA1A14978C92004E791E /* SenderPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0C4AA0714978C92004E791E /* SenderPhoto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenderPhoto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C4AA0A14978C92004E791E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F0C4AA0C14978C92004E791E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F0C4AA0F14978C92004E791E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F0C4AA1014978C92004E791E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0C4AA1114978C92004E791E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C4AA1414978C92004E791E /* SenderPhoto-Info.plist */ = {isa = PBXFileReference; path = "SenderPhoto-Info.plist"; sourceTree = "<group>"; };
+		F0C4AA1614978C92004E791E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C4AA1814978C92004E791E /* SenderPhoto-Prefix.pch */ = {isa = PBXFileReference; path = "SenderPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		F0C4AA1914978C92004E791E /* SenderPhoto.h */ = {isa = PBXFileReference; path = SenderPhoto.h; sourceTree = "<group>"; };
+		F0C4AA1A14978C92004E791E /* SenderPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenderPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C4AA0414978C92004E791E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4AA0B14978C92004E791E /* AddressBook.framework in Frameworks */,
+				F0C4AA0D14978C92004E791E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C4A9FC14978C92004E791E = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA1214978C92004E791E /* SenderPhoto */,
+				F0C4AA0914978C92004E791E /* Frameworks */,
+				F0C4AA0814978C92004E791E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C4AA0814978C92004E791E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA0714978C92004E791E /* SenderPhoto.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C4AA0914978C92004E791E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA0A14978C92004E791E /* AddressBook.framework */,
+				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
+				F0C4AA0E14978C92004E791E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C4AA0E14978C92004E791E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA0F14978C92004E791E /* AppKit.framework */,
+				F0C4AA1014978C92004E791E /* CoreData.framework */,
+				F0C4AA1114978C92004E791E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F0C4AA1214978C92004E791E /* SenderPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA1914978C92004E791E /* SenderPhoto.h */,
+				F0C4AA1A14978C92004E791E /* SenderPhoto.m */,
+				F0C4AA1314978C92004E791E /* Supporting Files */,
+			);
+			path = SenderPhoto;
+			sourceTree = "<group>";
+		};
+		F0C4AA1314978C92004E791E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA1414978C92004E791E /* SenderPhoto-Info.plist */,
+				F0C4AA1514978C92004E791E /* InfoPlist.strings */,
+				F0C4AA1814978C92004E791E /* SenderPhoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C4AA0614978C92004E791E /* SenderPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "SenderPhoto" */;
+			buildPhases = (
+				F0C4AA0314978C92004E791E /* Sources */,
+				F0C4AA0414978C92004E791E /* Frameworks */,
+				F0C4AA0514978C92004E791E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenderPhoto;
+			productName = SenderPhoto;
+			productReference = F0C4AA0714978C92004E791E /* SenderPhoto.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C4A9FE14978C92004E791E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = UD7;
+			};
+			buildConfigurationList = F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "SenderPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C4A9FC14978C92004E791E;
+			productRefGroup = F0C4AA0814978C92004E791E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C4AA0614978C92004E791E /* SenderPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C4AA0514978C92004E791E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4AA1714978C92004E791E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C4AA0314978C92004E791E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4AA1B14978C92004E791E /* SenderPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0C4AA1514978C92004E791E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4AA1614978C92004E791E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C4AA1C14978C92004E791E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F0C4AA1D14978C92004E791E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F0C4AA1F14978C92004E791E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenderPhoto/SenderPhoto-Prefix.pch";
+				INFOPLIST_FILE = "SenderPhoto/SenderPhoto-Info.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F0C4AA2014978C92004E791E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenderPhoto/SenderPhoto-Prefix.pch";
+				INFOPLIST_FILE = "SenderPhoto/SenderPhoto-Info.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "SenderPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4AA1C14978C92004E791E /* Debug */,
+				F0C4AA1D14978C92004E791E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "SenderPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4AA1F14978C92004E791E /* Debug */,
+				F0C4AA2014978C92004E791E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C4A9FE14978C92004E791E /* Project object */;
+}
