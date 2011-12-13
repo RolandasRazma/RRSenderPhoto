@@ -7,24 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0C4AA0B14978C92004E791E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4AA0A14978C92004E791E /* AddressBook.framework */; };
+		F000CBDB1497D68F007FDD41 /* cc.yahoo-inc.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */; };
+		F000CBDC1497D68F007FDD41 /* googlealerts-noreply@google.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD01497D68F007FDD41 /* googlealerts-noreply@google.com.png */; };
+		F000CBDD1497D68F007FDD41 /* hit-reply@linkedin.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD11497D68F007FDD41 /* hit-reply@linkedin.com.png */; };
+		F000CBDE1497D68F007FDD41 /* komli.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD21497D68F007FDD41 /* komli.com.png */; };
+		F000CBDF1497D68F007FDD41 /* no-reply@geni.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD31497D68F007FDD41 /* no-reply@geni.com.png */; };
+		F000CBE01497D68F007FDD41 /* noreply@fb.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD41497D68F007FDD41 /* noreply@fb.com.png */; };
+		F000CBE11497D68F007FDD41 /* noreply@n.testflightapp.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD51497D68F007FDD41 /* noreply@n.testflightapp.com.png */; };
+		F000CBE21497D68F007FDD41 /* noreply@podio.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD61497D68F007FDD41 /* noreply@podio.com.png */; };
+		F000CBE31497D68F007FDD41 /* noreply@testflightapp.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD71497D68F007FDD41 /* noreply@testflightapp.com.png */; };
+		F000CBE41497D68F007FDD41 /* pazintys@draugas.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD81497D68F007FDD41 /* pazintys@draugas.lt.png */; };
+		F000CBE51497D68F007FDD41 /* postmaster.twitter.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */; };
+		F000CBE61497D68F007FDD41 /* seb.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBDA1497D68F007FDD41 /* seb.lt.png */; };
 		F0C4AA0D14978C92004E791E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4AA0C14978C92004E791E /* Cocoa.framework */; };
-		F0C4AA1714978C92004E791E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C4AA1514978C92004E791E /* InfoPlist.strings */; };
-		F0C4AA1B14978C92004E791E /* SenderPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4AA1A14978C92004E791E /* SenderPhoto.m */; };
+		F0C4AA2614978D34004E791E /* RRSenderPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4AA2314978D34004E791E /* RRSenderPhoto.m */; };
+		F0DA254F1497962700F05422 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DA254E1497962600F05422 /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0C4AA0714978C92004E791E /* SenderPhoto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenderPhoto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0C4AA0A14978C92004E791E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cc.yahoo-inc.com.png"; sourceTree = "<group>"; };
+		F000CBD01497D68F007FDD41 /* googlealerts-noreply@google.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googlealerts-noreply@google.com.png"; sourceTree = "<group>"; };
+		F000CBD11497D68F007FDD41 /* hit-reply@linkedin.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hit-reply@linkedin.com.png"; sourceTree = "<group>"; };
+		F000CBD21497D68F007FDD41 /* komli.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komli.com.png; sourceTree = "<group>"; };
+		F000CBD31497D68F007FDD41 /* no-reply@geni.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-reply@geni.com.png"; sourceTree = "<group>"; };
+		F000CBD41497D68F007FDD41 /* noreply@fb.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noreply@fb.com.png"; sourceTree = "<group>"; };
+		F000CBD51497D68F007FDD41 /* noreply@n.testflightapp.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noreply@n.testflightapp.com.png"; sourceTree = "<group>"; };
+		F000CBD61497D68F007FDD41 /* noreply@podio.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noreply@podio.com.png"; sourceTree = "<group>"; };
+		F000CBD71497D68F007FDD41 /* noreply@testflightapp.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noreply@testflightapp.com.png"; sourceTree = "<group>"; };
+		F000CBD81497D68F007FDD41 /* pazintys@draugas.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pazintys@draugas.lt.png"; sourceTree = "<group>"; };
+		F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postmaster.twitter.com.png; sourceTree = "<group>"; };
+		F000CBDA1497D68F007FDD41 /* seb.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seb.lt.png; sourceTree = "<group>"; };
+		F0C4AA0714978C92004E791E /* RRSenderPhoto.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRSenderPhoto.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4AA0C14978C92004E791E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F0C4AA0F14978C92004E791E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		F0C4AA1014978C92004E791E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F0C4AA1114978C92004E791E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F0C4AA1414978C92004E791E /* SenderPhoto-Info.plist */ = {isa = PBXFileReference; path = "SenderPhoto-Info.plist"; sourceTree = "<group>"; };
-		F0C4AA1614978C92004E791E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0C4AA1814978C92004E791E /* SenderPhoto-Prefix.pch */ = {isa = PBXFileReference; path = "SenderPhoto-Prefix.pch"; sourceTree = "<group>"; };
-		F0C4AA1914978C92004E791E /* SenderPhoto.h */ = {isa = PBXFileReference; path = SenderPhoto.h; sourceTree = "<group>"; };
-		F0C4AA1A14978C92004E791E /* SenderPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenderPhoto.m; sourceTree = "<group>"; };
+		F0C4AA1414978C92004E791E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		F0C4AA1814978C92004E791E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		F0C4AA2214978D34004E791E /* RRSenderPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRSenderPhoto.h; sourceTree = "<group>"; };
+		F0C4AA2314978D34004E791E /* RRSenderPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRSenderPhoto.m; sourceTree = "<group>"; };
+		F0DA254E1497962600F05422 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C4AA0B14978C92004E791E /* AddressBook.framework in Frameworks */,
+				F0DA254F1497962700F05422 /* AddressBook.framework in Frameworks */,
 				F0C4AA0D14978C92004E791E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,11 +61,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F000CBCE1497D68F007FDD41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */,
+				F000CBD01497D68F007FDD41 /* googlealerts-noreply@google.com.png */,
+				F000CBD11497D68F007FDD41 /* hit-reply@linkedin.com.png */,
+				F000CBD21497D68F007FDD41 /* komli.com.png */,
+				F000CBD31497D68F007FDD41 /* no-reply@geni.com.png */,
+				F000CBD41497D68F007FDD41 /* noreply@fb.com.png */,
+				F000CBD51497D68F007FDD41 /* noreply@n.testflightapp.com.png */,
+				F000CBD61497D68F007FDD41 /* noreply@podio.com.png */,
+				F000CBD71497D68F007FDD41 /* noreply@testflightapp.com.png */,
+				F000CBD81497D68F007FDD41 /* pazintys@draugas.lt.png */,
+				F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */,
+				F000CBDA1497D68F007FDD41 /* seb.lt.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F0C4A9FC14978C92004E791E = {
 			isa = PBXGroup;
 			children = (
-				F0C4AA1214978C92004E791E /* SenderPhoto */,
-				F0C4AA0914978C92004E791E /* Frameworks */,
+				F0DA254E1497962600F05422 /* AddressBook.framework */,
+				F0C4AA2114978D34004E791E /* Classes */,
+				F0C4AA2514978D34004E791E /* Resources */,
+				F0C4AA1314978C92004E791E /* Supporting Files */,
+				F0C4AA2414978D34004E791E /* Frameworks */,
 				F0C4AA0814978C92004E791E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,57 +95,66 @@
 		F0C4AA0814978C92004E791E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0C4AA0714978C92004E791E /* SenderPhoto.bundle */,
+				F0C4AA0714978C92004E791E /* RRSenderPhoto.mailbundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F0C4AA0914978C92004E791E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F0C4AA0A14978C92004E791E /* AddressBook.framework */,
-				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
-				F0C4AA0E14978C92004E791E /* Other Frameworks */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F0C4AA0E14978C92004E791E /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F0C4AA0F14978C92004E791E /* AppKit.framework */,
-				F0C4AA1014978C92004E791E /* CoreData.framework */,
 				F0C4AA1114978C92004E791E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		F0C4AA1214978C92004E791E /* SenderPhoto */ = {
-			isa = PBXGroup;
-			children = (
-				F0C4AA1914978C92004E791E /* SenderPhoto.h */,
-				F0C4AA1A14978C92004E791E /* SenderPhoto.m */,
-				F0C4AA1314978C92004E791E /* Supporting Files */,
-			);
-			path = SenderPhoto;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F0C4AA1314978C92004E791E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0C4AA1414978C92004E791E /* SenderPhoto-Info.plist */,
-				F0C4AA1514978C92004E791E /* InfoPlist.strings */,
-				F0C4AA1814978C92004E791E /* SenderPhoto-Prefix.pch */,
+				F0C4AA1814978C92004E791E /* Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = RRSenderPhoto;
+			sourceTree = "<group>";
+		};
+		F0C4AA2114978D34004E791E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA2214978D34004E791E /* RRSenderPhoto.h */,
+				F0C4AA2314978D34004E791E /* RRSenderPhoto.m */,
+			);
+			name = Classes;
+			path = RRSenderPhoto/Classes;
+			sourceTree = "<group>";
+		};
+		F0C4AA2414978D34004E791E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
+				F0C4AA0E14978C92004E791E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			path = RRSenderPhoto/Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C4AA2514978D34004E791E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F000CBCE1497D68F007FDD41 /* Images */,
+				F0C4AA1414978C92004E791E /* Info.plist */,
+			);
+			name = Resources;
+			path = RRSenderPhoto/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0C4AA0614978C92004E791E /* SenderPhoto */ = {
+		F0C4AA0614978C92004E791E /* RRSenderPhoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "SenderPhoto" */;
+			buildConfigurationList = F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "RRSenderPhoto" */;
 			buildPhases = (
 				F0C4AA0314978C92004E791E /* Sources */,
 				F0C4AA0414978C92004E791E /* Frameworks */,
@@ -112,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = SenderPhoto;
-			productName = SenderPhoto;
-			productReference = F0C4AA0714978C92004E791E /* SenderPhoto.bundle */;
+			name = RRSenderPhoto;
+			productName = RRSenderPhoto;
+			productReference = F0C4AA0714978C92004E791E /* RRSenderPhoto.mailbundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +178,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = UD7;
 			};
-			buildConfigurationList = F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "SenderPhoto" */;
+			buildConfigurationList = F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "RRSenderPhoto" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0C4AA0614978C92004E791E /* SenderPhoto */,
+				F0C4AA0614978C92004E791E /* RRSenderPhoto */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +200,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C4AA1714978C92004E791E /* InfoPlist.strings in Resources */,
+				F000CBDB1497D68F007FDD41 /* cc.yahoo-inc.com.png in Resources */,
+				F000CBDC1497D68F007FDD41 /* googlealerts-noreply@google.com.png in Resources */,
+				F000CBDD1497D68F007FDD41 /* hit-reply@linkedin.com.png in Resources */,
+				F000CBDE1497D68F007FDD41 /* komli.com.png in Resources */,
+				F000CBDF1497D68F007FDD41 /* no-reply@geni.com.png in Resources */,
+				F000CBE01497D68F007FDD41 /* noreply@fb.com.png in Resources */,
+				F000CBE11497D68F007FDD41 /* noreply@n.testflightapp.com.png in Resources */,
+				F000CBE21497D68F007FDD41 /* noreply@podio.com.png in Resources */,
+				F000CBE31497D68F007FDD41 /* noreply@testflightapp.com.png in Resources */,
+				F000CBE41497D68F007FDD41 /* pazintys@draugas.lt.png in Resources */,
+				F000CBE51497D68F007FDD41 /* postmaster.twitter.com.png in Resources */,
+				F000CBE61497D68F007FDD41 /* seb.lt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,22 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C4AA1B14978C92004E791E /* SenderPhoto.m in Sources */,
+				F0C4AA2614978D34004E791E /* RRSenderPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F0C4AA1514978C92004E791E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0C4AA1614978C92004E791E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F0C4AA1C14978C92004E791E /* Debug */ = {
@@ -226,11 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SenderPhoto/SenderPhoto-Prefix.pch";
-				INFOPLIST_FILE = "SenderPhoto/SenderPhoto-Info.plist";
-				INSTALL_PATH = "$(HOME)/Developer/Palettes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				GCC_PREFIX_HEADER = RRSenderPhoto/Prefix.pch;
+				INFOPLIST_FILE = RRSenderPhoto/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				PRODUCT_NAME = RRSenderPhoto;
+				WRAPPER_EXTENSION = mailbundle;
 			};
 			name = Debug;
 		};
@@ -238,18 +290,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SenderPhoto/SenderPhoto-Prefix.pch";
-				INFOPLIST_FILE = "SenderPhoto/SenderPhoto-Info.plist";
-				INSTALL_PATH = "$(HOME)/Developer/Palettes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				GCC_PREFIX_HEADER = RRSenderPhoto/Prefix.pch;
+				INFOPLIST_FILE = RRSenderPhoto/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				PRODUCT_NAME = RRSenderPhoto;
+				WRAPPER_EXTENSION = mailbundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "SenderPhoto" */ = {
+		F0C4AA0114978C92004E791E /* Build configuration list for PBXProject "RRSenderPhoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0C4AA1C14978C92004E791E /* Debug */,
@@ -258,13 +310,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "SenderPhoto" */ = {
+		F0C4AA1E14978C92004E791E /* Build configuration list for PBXNativeTarget "RRSenderPhoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0C4AA1F14978C92004E791E /* Debug */,
 				F0C4AA2014978C92004E791E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

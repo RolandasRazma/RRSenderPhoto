@@ -21,8 +21,13 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 UD7. All rights reserved.</string>
+	<string>Copyright © 2011 Rolandas Razma. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>SenderPhoto</string>
+	<string>RRSenderPhoto</string>
+	<key>SupportedPluginCompatibilityUUIDs</key>
+	<array>
+		<string>EF59EC5E-EFCD-4EA7-B617-6C5708397D24</string>
+		<string>6E7970A3-E5F1-4C41-A904-B18D3D8FAA7D</string>
+	</array>
 </dict>
 </plist>
