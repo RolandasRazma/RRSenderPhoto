@@ -113,13 +113,25 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		F07327AF1498957F00BA6FD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
+				F0DA254E1497962600F05422 /* AddressBook.framework */,
+				F0C4AA0F14978C92004E791E /* AppKit.framework */,
+				F0C4AA1114978C92004E791E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			path = RRSenderPhoto/Frameworks;
+			sourceTree = "<group>";
+		};
 		F0C4A9FC14978C92004E791E = {
 			isa = PBXGroup;
 			children = (
 				F0C4AA2114978D34004E791E /* Classes */,
 				F0C4AA2514978D34004E791E /* Resources */,
 				F0C4AA1314978C92004E791E /* Supporting Files */,
-				F0C4AA2414978D34004E791E /* Frameworks */,
+				F07327AF1498957F00BA6FD3 /* Frameworks */,
 				F0C4AA0814978C92004E791E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,16 +142,6 @@
 				F0C4AA0714978C92004E791E /* RRSenderPhoto.mailbundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F0C4AA0E14978C92004E791E /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F0C4AA0F14978C92004E791E /* AppKit.framework */,
-				F0C4AA1114978C92004E791E /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F0C4AA1314978C92004E791E /* Supporting Files */ = {
@@ -159,17 +161,6 @@
 			);
 			name = Classes;
 			path = RRSenderPhoto/Classes;
-			sourceTree = "<group>";
-		};
-		F0C4AA2414978D34004E791E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
-				F0DA254E1497962600F05422 /* AddressBook.framework */,
-				F0C4AA0E14978C92004E791E /* Other Frameworks */,
-			);
-			name = Frameworks;
-			path = RRSenderPhoto/Frameworks;
 			sourceTree = "<group>";
 		};
 		F0C4AA2514978D34004E791E /* Resources */ = {
@@ -323,6 +314,10 @@
 		F0C4AA1F14978C92004E791E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RRSenderPhoto/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RRSenderPhoto/Prefix.pch;
 				INFOPLIST_FILE = RRSenderPhoto/Info.plist;
@@ -335,6 +330,10 @@
 		F0C4AA2014978C92004E791E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RRSenderPhoto/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RRSenderPhoto/Prefix.pch;
 				INFOPLIST_FILE = RRSenderPhoto/Info.plist;

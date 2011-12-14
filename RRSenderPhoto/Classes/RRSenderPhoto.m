@@ -78,9 +78,7 @@ void Swizzle(Class c, SEL orig, SEL new, BOOL classMethod) {
                 [multiValue addValue:email withLabel:kABEmailHomeLabel];
                 [person setValue:multiValue forProperty:kABEmailProperty];
                 [multiValue release];
-                
-                
-                
+
                 // Add photo
                 [person setImageData: [NSData dataWithContentsOfFile: imagePath]];
                 
