@@ -11,5 +11,5 @@ into this:
 
 How to install:
 ---------
-1) copy Release/RRSenderPhoto.mailbundle to ~/Library/Mail/Bundles/
+1) copy Release/RRSenderPhoto.mailbundle to ~/Library/Mail/Bundles/<br/>
 2) restart Mail.app
