@@ -7,3 +7,9 @@ Convert this:
 <img src="http://img834.imageshack.us/img834/7523/screenshot20111213at854.png">
 into this:
 <img src="http://img269.imageshack.us/img269/8091/screenshot20111213at855.png">
+
+
+How to install:
+---------
+1) copy Release/RRSenderPhoto.mailbundle to ~/Library/Mail/Bundles/
+2) restart Mail.app

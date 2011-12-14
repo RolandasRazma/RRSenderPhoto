@@ -83,7 +83,6 @@
 		F0C4A9FC14978C92004E791E = {
 			isa = PBXGroup;
 			children = (
-				F0DA254E1497962600F05422 /* AddressBook.framework */,
 				F0C4AA2114978D34004E791E /* Classes */,
 				F0C4AA2514978D34004E791E /* Resources */,
 				F0C4AA1314978C92004E791E /* Supporting Files */,
@@ -133,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				F0C4AA0C14978C92004E791E /* Cocoa.framework */,
+				F0DA254E1497962600F05422 /* AddressBook.framework */,
 				F0C4AA0E14978C92004E791E /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -251,6 +251,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -270,6 +271,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
