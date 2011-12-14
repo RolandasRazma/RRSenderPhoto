@@ -60,7 +60,7 @@ void Swizzle(Class c, SEL orig, SEL new, BOOL classMethod) {
         if( trRange.location != NSNotFound ){
             NSString *email = [description substringWithRange:NSMakeRange(trRange.location +2, description.length -trRange.location -4)];
 
-            NSString *imageName = [email stringByAppendingString:@".png"];
+            NSString *imageName = [[email stringByAppendingString:@".png"] lowercaseString];
             NSString *imagePath = [[NSBundle bundleForClass:[RRSenderPhoto class]] pathForImageResource:imageName];
             if( !imagePath ){
                 NSRange atRange = [imageName rangeOfString:@"@"];
