@@ -12,4 +12,7 @@ into this:
 How to install:
 ---------
 1) copy Release/RRSenderPhoto.mailbundle to ~/Library/Mail/Bundles/
-2) restart Mail.app
+2) enable plugins support, in terminal:
+  defaults write com.apple.mail EnableBundles -bool true
+  defaults write com.apple.mail BundleCompatibilityVersion 3
+3) restart Mail.app
