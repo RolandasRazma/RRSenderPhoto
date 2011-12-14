@@ -18,6 +18,7 @@
 		F000CBE41497D68F007FDD41 /* draugas.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD81497D68F007FDD41 /* draugas.lt.png */; };
 		F000CBE51497D68F007FDD41 /* postmaster.twitter.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */; };
 		F000CBE61497D68F007FDD41 /* seb.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBDA1497D68F007FDD41 /* seb.lt.png */; };
+		F073276F14988E9C00BA6FD3 /* cybercoders.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F073276E14988E9C00BA6FD3 /* cybercoders.com.png */; };
 		F08BE2891498861A0066B5B7 /* linkedin.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE2881498861A0066B5B7 /* linkedin.com.png */; };
 		F08BE28F149886D40066B5B7 /* darnipora.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE28E149886D40066B5B7 /* darnipora.lt.png */; };
 		F08BE292149887FD0066B5B7 /* tapjoy.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE291149887FD0066B5B7 /* tapjoy.com.png */; };
@@ -39,6 +40,7 @@
 		F000CBD81497D68F007FDD41 /* draugas.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draugas.lt.png; sourceTree = "<group>"; };
 		F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postmaster.twitter.com.png; sourceTree = "<group>"; };
 		F000CBDA1497D68F007FDD41 /* seb.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seb.lt.png; sourceTree = "<group>"; };
+		F073276E14988E9C00BA6FD3 /* cybercoders.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cybercoders.com.png; sourceTree = "<group>"; };
 		F08BE2881498861A0066B5B7 /* linkedin.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.com.png; sourceTree = "<group>"; };
 		F08BE28E149886D40066B5B7 /* darnipora.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darnipora.lt.png; sourceTree = "<group>"; };
 		F08BE291149887FD0066B5B7 /* tapjoy.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapjoy.com.png; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		F000CBCE1497D68F007FDD41 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F073276E14988E9C00BA6FD3 /* cybercoders.com.png */,
 				F08BE29614988DC60066B5B7 /* founder2be.com.png */,
 				F08BE28E149886D40066B5B7 /* darnipora.lt.png */,
 				F08BE291149887FD0066B5B7 /* tapjoy.com.png */,
@@ -224,6 +227,7 @@
 				F08BE28F149886D40066B5B7 /* darnipora.lt.png in Resources */,
 				F08BE292149887FD0066B5B7 /* tapjoy.com.png in Resources */,
 				F08BE29714988DC60066B5B7 /* founder2be.com.png in Resources */,
+				F073276F14988E9C00BA6FD3 /* cybercoders.com.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
