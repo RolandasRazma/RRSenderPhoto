@@ -24,6 +24,7 @@
 		F07327761498912700BA6FD3 /* no-reply-aws@amazon.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F07327751498912700BA6FD3 /* no-reply-aws@amazon.com.png */; };
 		F07327781498920F00BA6FD3 /* noreply-appledev@apple.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F07327771498920F00BA6FD3 /* noreply-appledev@apple.com.png */; };
 		F073277A1498932700BA6FD3 /* godaddy.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F07327791498932700BA6FD3 /* godaddy.com.png */; };
+		F073277C149893A900BA6FD3 /* email.appsumo.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F073277B149893A900BA6FD3 /* email.appsumo.com.png */; };
 		F08BE2891498861A0066B5B7 /* linkedin.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE2881498861A0066B5B7 /* linkedin.com.png */; };
 		F08BE28F149886D40066B5B7 /* darnipora.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE28E149886D40066B5B7 /* darnipora.lt.png */; };
 		F08BE292149887FD0066B5B7 /* tapjoy.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE291149887FD0066B5B7 /* tapjoy.com.png */; };
@@ -51,6 +52,7 @@
 		F07327751498912700BA6FD3 /* no-reply-aws@amazon.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-reply-aws@amazon.com.png"; sourceTree = "<group>"; };
 		F07327771498920F00BA6FD3 /* noreply-appledev@apple.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noreply-appledev@apple.com.png"; sourceTree = "<group>"; };
 		F07327791498932700BA6FD3 /* godaddy.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = godaddy.com.png; sourceTree = "<group>"; };
+		F073277B149893A900BA6FD3 /* email.appsumo.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.appsumo.com.png; sourceTree = "<group>"; };
 		F08BE2881498861A0066B5B7 /* linkedin.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.com.png; sourceTree = "<group>"; };
 		F08BE28E149886D40066B5B7 /* darnipora.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darnipora.lt.png; sourceTree = "<group>"; };
 		F08BE291149887FD0066B5B7 /* tapjoy.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapjoy.com.png; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				F000CBD31497D68F007FDD41 /* geni.com.png */,
 				F07327751498912700BA6FD3 /* no-reply-aws@amazon.com.png */,
 				F000CBD41497D68F007FDD41 /* fb.com.png */,
+				F073277B149893A900BA6FD3 /* email.appsumo.com.png */,
 				F07327771498920F00BA6FD3 /* noreply-appledev@apple.com.png */,
 				F073277114988EF800BA6FD3 /* facebookmail.com.png */,
 				F000CBD51497D68F007FDD41 /* n.testflightapp.com.png */,
@@ -248,6 +251,7 @@
 				F07327761498912700BA6FD3 /* no-reply-aws@amazon.com.png in Resources */,
 				F07327781498920F00BA6FD3 /* noreply-appledev@apple.com.png in Resources */,
 				F073277A1498932700BA6FD3 /* godaddy.com.png in Resources */,
+				F073277C149893A900BA6FD3 /* email.appsumo.com.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
