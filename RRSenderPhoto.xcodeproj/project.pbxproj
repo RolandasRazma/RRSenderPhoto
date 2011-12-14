@@ -21,6 +21,7 @@
 		F08BE2891498861A0066B5B7 /* linkedin.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE2881498861A0066B5B7 /* linkedin.com.png */; };
 		F08BE28F149886D40066B5B7 /* darnipora.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE28E149886D40066B5B7 /* darnipora.lt.png */; };
 		F08BE292149887FD0066B5B7 /* tapjoy.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE291149887FD0066B5B7 /* tapjoy.com.png */; };
+		F08BE29714988DC60066B5B7 /* founder2be.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F08BE29614988DC60066B5B7 /* founder2be.com.png */; };
 		F0C4AA0D14978C92004E791E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4AA0C14978C92004E791E /* Cocoa.framework */; };
 		F0C4AA2614978D34004E791E /* RRSenderPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4AA2314978D34004E791E /* RRSenderPhoto.m */; };
 		F0DA254F1497962700F05422 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DA254E1497962600F05422 /* AddressBook.framework */; };
@@ -41,6 +42,7 @@
 		F08BE2881498861A0066B5B7 /* linkedin.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.com.png; sourceTree = "<group>"; };
 		F08BE28E149886D40066B5B7 /* darnipora.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darnipora.lt.png; sourceTree = "<group>"; };
 		F08BE291149887FD0066B5B7 /* tapjoy.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapjoy.com.png; sourceTree = "<group>"; };
+		F08BE29614988DC60066B5B7 /* founder2be.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = founder2be.com.png; sourceTree = "<group>"; };
 		F0C4AA0714978C92004E791E /* RRSenderPhoto.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRSenderPhoto.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4AA0C14978C92004E791E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F0C4AA0F14978C92004E791E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -68,6 +70,7 @@
 		F000CBCE1497D68F007FDD41 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F08BE29614988DC60066B5B7 /* founder2be.com.png */,
 				F08BE28E149886D40066B5B7 /* darnipora.lt.png */,
 				F08BE291149887FD0066B5B7 /* tapjoy.com.png */,
 				F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */,
@@ -220,6 +223,7 @@
 				F08BE2891498861A0066B5B7 /* linkedin.com.png in Resources */,
 				F08BE28F149886D40066B5B7 /* darnipora.lt.png in Resources */,
 				F08BE292149887FD0066B5B7 /* tapjoy.com.png in Resources */,
+				F08BE29714988DC60066B5B7 /* founder2be.com.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
