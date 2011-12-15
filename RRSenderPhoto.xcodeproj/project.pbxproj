@@ -18,6 +18,7 @@
 		F000CBE41497D68F007FDD41 /* draugas.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD81497D68F007FDD41 /* draugas.lt.png */; };
 		F000CBE51497D68F007FDD41 /* postmaster.twitter.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */; };
 		F000CBE61497D68F007FDD41 /* seb.lt.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBDA1497D68F007FDD41 /* seb.lt.png */; };
+		F05F7F9C1499BB35005C3FD9 /* notifications@appshopper.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F7F9B1499BB35005C3FD9 /* notifications@appshopper.com.png */; };
 		F073276F14988E9C00BA6FD3 /* cybercoders.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F073276E14988E9C00BA6FD3 /* cybercoders.com.png */; };
 		F073277214988EF800BA6FD3 /* facebookmail.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F073277114988EF800BA6FD3 /* facebookmail.com.png */; };
 		F07327741498906400BA6FD3 /* uservoice.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F07327731498906400BA6FD3 /* uservoice.com.png */; };
@@ -47,6 +48,7 @@
 		F000CBD81497D68F007FDD41 /* draugas.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draugas.lt.png; sourceTree = "<group>"; };
 		F000CBD91497D68F007FDD41 /* postmaster.twitter.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postmaster.twitter.com.png; sourceTree = "<group>"; };
 		F000CBDA1497D68F007FDD41 /* seb.lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seb.lt.png; sourceTree = "<group>"; };
+		F05F7F9B1499BB35005C3FD9 /* notifications@appshopper.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications@appshopper.com.png"; sourceTree = "<group>"; };
 		F073276E14988E9C00BA6FD3 /* cybercoders.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cybercoders.com.png; sourceTree = "<group>"; };
 		F073277114988EF800BA6FD3 /* facebookmail.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookmail.com.png; sourceTree = "<group>"; };
 		F07327731498906400BA6FD3 /* uservoice.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uservoice.com.png; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				F073277D1498942100BA6FD3 /* newsletter@unity3d.com.png */,
+				F05F7F9B1499BB35005C3FD9 /* notifications@appshopper.com.png */,
 				F07327791498932700BA6FD3 /* godaddy.com.png */,
 				F07327731498906400BA6FD3 /* uservoice.com.png */,
 				F073276E14988E9C00BA6FD3 /* cybercoders.com.png */,
@@ -247,6 +250,7 @@
 				F073277A1498932700BA6FD3 /* godaddy.com.png in Resources */,
 				F073277C149893A900BA6FD3 /* email.appsumo.com.png in Resources */,
 				F073277E1498942100BA6FD3 /* newsletter@unity3d.com.png in Resources */,
+				F05F7F9C1499BB35005C3FD9 /* notifications@appshopper.com.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
