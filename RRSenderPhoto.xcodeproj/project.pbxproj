@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F000CBDB1497D68F007FDD41 /* cc.yahoo-inc.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */; };
 		F000CBDC1497D68F007FDD41 /* google.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD01497D68F007FDD41 /* google.com.png */; };
-		F000CBDE1497D68F007FDD41 /* komli.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD21497D68F007FDD41 /* komli.com.png */; };
 		F000CBDF1497D68F007FDD41 /* geni.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD31497D68F007FDD41 /* geni.com.png */; };
 		F000CBE01497D68F007FDD41 /* fb.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD41497D68F007FDD41 /* fb.com.png */; };
 		F000CBE11497D68F007FDD41 /* n.testflightapp.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F000CBD51497D68F007FDD41 /* n.testflightapp.com.png */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cc.yahoo-inc.com.png"; sourceTree = "<group>"; };
 		F000CBD01497D68F007FDD41 /* google.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.com.png; sourceTree = "<group>"; };
-		F000CBD21497D68F007FDD41 /* komli.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komli.com.png; sourceTree = "<group>"; };
 		F000CBD31497D68F007FDD41 /* geni.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geni.com.png; sourceTree = "<group>"; };
 		F000CBD41497D68F007FDD41 /* fb.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.com.png; sourceTree = "<group>"; };
 		F000CBD51497D68F007FDD41 /* n.testflightapp.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n.testflightapp.com.png; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				F000CBCF1497D68F007FDD41 /* cc.yahoo-inc.com.png */,
 				F000CBD01497D68F007FDD41 /* google.com.png */,
 				F08BE2881498861A0066B5B7 /* linkedin.com.png */,
-				F000CBD21497D68F007FDD41 /* komli.com.png */,
 				F000CBD31497D68F007FDD41 /* geni.com.png */,
 				F07327751498912700BA6FD3 /* no-reply-aws@amazon.com.png */,
 				F000CBD41497D68F007FDD41 /* fb.com.png */,
@@ -229,7 +226,6 @@
 			files = (
 				F000CBDB1497D68F007FDD41 /* cc.yahoo-inc.com.png in Resources */,
 				F000CBDC1497D68F007FDD41 /* google.com.png in Resources */,
-				F000CBDE1497D68F007FDD41 /* komli.com.png in Resources */,
 				F000CBDF1497D68F007FDD41 /* geni.com.png in Resources */,
 				F000CBE01497D68F007FDD41 /* fb.com.png in Resources */,
 				F000CBE11497D68F007FDD41 /* n.testflightapp.com.png in Resources */,
