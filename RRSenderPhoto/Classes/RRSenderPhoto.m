@@ -29,6 +29,37 @@ void Swizzle(Class c, SEL orig, SEL new, BOOL classMethod) {
 }
 
 
+@implementation NSString (RRSenderPhoto)
+
+
+- (NSArray *)mailComponents {
+    NSMutableArray *components = [[NSMutableArray alloc] initWithObjects: self, nil];
+    
+    
+    NSCharacterSet *separatorSet = [NSCharacterSet characterSetWithCharactersInString:@"@."];
+    
+    NSScanner *scanner = [NSScanner scannerWithString: self];
+    
+    [scanner scanUpToCharactersFromSet:separatorSet intoString:NULL];
+    [scanner setScanLocation: scanner.scanLocation +1];
+    [components addObject: [self substringWithRange:NSMakeRange(scanner.scanLocation, self.length -scanner.scanLocation)]];
+    
+    while ( ![scanner isAtEnd] ) {
+        [scanner scanUpToCharactersFromSet:separatorSet intoString:NULL];
+        if( ![scanner isAtEnd] ){
+            [scanner setScanLocation: scanner.scanLocation +1];    
+            [components addObject: [self substringWithRange:NSMakeRange(scanner.scanLocation, self.length -scanner.scanLocation)]];    
+        }
+    }
+    
+    
+    return [components autorelease];
+}
+
+
+@end
+
+
 @implementation RRSenderPhoto
 
 
@@ -59,17 +90,19 @@ void Swizzle(Class c, SEL orig, SEL new, BOOL classMethod) {
         NSRange trRange = [description rangeOfString:@" '"];
         if( trRange.location != NSNotFound ){
             NSString *email = [description substringWithRange:NSMakeRange(trRange.location +2, description.length -trRange.location -4)];
-
-            NSString *imageName = [[email stringByAppendingString:@".png"] lowercaseString];
-            NSString *imagePath = [[NSBundle bundleForClass:[RRSenderPhoto class]] pathForImageResource:imageName];
-            if( !imagePath ){
-                NSRange atRange = [imageName rangeOfString:@"@"];
-                if( atRange.location != NSNotFound ){
-                    imageName = [imageName substringWithRange:NSMakeRange(atRange.location +1, imageName.length -atRange.location -1)];   
-                    imagePath = [[NSBundle bundleForClass:[RRSenderPhoto class]] pathForImageResource:imageName];
-                }
-            }
             
+            NSString *imagePath = nil;
+            
+            // Find longest name logo
+            NSArray *mailComponents = [[email lowercaseString] mailComponents];
+            for( NSString *component in mailComponents ){
+                imagePath = [[NSBundle bundleForClass:[RRSenderPhoto class]] pathForResource: component
+                                                                                      ofType: @"png" 
+                                                                                 inDirectory: @"Logos"];
+                if( imagePath ) break;
+            }
+
+            // If we found logo
             if( imagePath ){
 #pragma TODO: something wrong here, you cant replay to emails
                 ABPerson *person = [[ABPerson alloc] init];
